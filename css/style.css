@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/* inizio header */
 header {
     height: 60px;
     background-color: brown;
@@ -11,9 +12,44 @@ header {
 
 .col-header {
     height: 60%;
-    width: 25%;
     background-color: aqua;
+}
 
+ul {
+    display: flex;
+    height: 100%;
+    list-style-type: none;
+    align-items: center;
+}
+
+li {
+    padding: 0px 20px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
+}
+
+.immagine-logo {
+    display: inline-block;
+    height: 100%;
+}
+
+.flex-header {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* fine header */
+/* inizio colonne */
+.flex-center {
+    display: flex;
+    align-items: center;
 }
 
 .col-100 {
@@ -57,6 +93,7 @@ header {
 }
 
 .col-10 {
+
     height: calc(100%/6 - 20px);
     width: calc(100% - 20px);
     background-color: rgb(57, 34, 78);
@@ -79,17 +116,35 @@ header {
     width: calc(100%/2);
 }
 
+.col-full {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background-color: sienna;
+}
+
+.col-5 {
+    height: 200px;
+    width: calc(100%/7);
+    margin: 10px;
+    background-color: aquamarine;
+}
+
+.col-33-full {
+    width: calc(100%/3);
+    height: 100%;
+    background-color: bisque;
+    border: 1px solid black;
+}
+
+/* classi di utility */
+
 .margin {
     margin: 10px;
 }
 
-.flex-header {
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+h1 {
+    font-size: 60px;
 }
 
 .flex {
@@ -123,13 +178,6 @@ header {
     background-color: rgb(6, 255, 255);
 }
 
-.col-33-full {
-    width: calc(100%/3);
-    height: 100%;
-    background-color: bisque;
-    border: 1px solid black;
-}
-
 .container-full {
     width: 100%;
     background-color: black;
@@ -141,13 +189,6 @@ header {
     padding: 50px 0px;
 }
 
-.col-5 {
-    height: 200px;
-    width: calc(100%/7);
-    margin: 10px;
-    background-color: aquamarine;
-}
-
 .container {
     display: flex;
     flex-direction: row;
@@ -157,9 +198,10 @@ header {
     background-color: rgb(219, 155, 60);
 }
 
-.col-full {
+.flex-center {
     display: flex;
-    width: 100%;
-    height: 400px;
-    background-color: sienna;
+    justify-content: center;
+    align-items: center;
 }
+
+/* fine classi di utility */
