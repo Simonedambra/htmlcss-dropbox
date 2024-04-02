@@ -68,6 +68,12 @@ header {
     background-color: cadetblue;
 }
 
+.col-33-2 {
+    height: 200px;
+    width: calc(100%/3 - 20px);
+    background-color: cadetblue;
+}
+
 .margin {
     margin: 10px;
 }
@@ -94,7 +100,6 @@ header {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
-    height: 2000px;
     background-color: brown;
 }
 
@@ -102,12 +107,26 @@ header {
     height: 800px;
     width: 100%;
     background-color: rgb(6, 255, 255);
+}
 
+.container-full-blue-2 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    width: 100%;
+    background-color: rgb(6, 255, 255);
+}
+
+.col-33-full {
+    width: calc(100%/3);
+    height: 100%;
+    background-color: bisque;
+    border: 1px solid black;
 }
 
 .container-full {
-    height: 3000px;
     width: 100%;
+    height: 2500px;
     background-color: black;
 }
 
@@ -115,7 +134,7 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    height: calc(100% - 100px);
+    height: 80%;
     width: 60%;
     margin: 50px 0px;
     background-color: rgb(219, 155, 60);
