@@ -51,7 +51,8 @@ li {
     background-repeat: no-repeat;
     height: 100%;
     width: 100%;
-    scale: 1;
+    margin: 60px 0px 0px 50px;
+    scale: 1.2;
 
 }
 
@@ -78,10 +79,26 @@ li {
     background-repeat: no-repeat;
 }
 
+.small-img-footer {
+    height: 50%;
+    width: 50%;
+    padding: 60px;
+    background-size: cover;
+    color: white;
+}
+
+.img-footer-center {
+    margin: 0px 20px;
+    height: 70px;
+    background-size: contain;
+}
+
+
 /* inizio colonne */
 .flex-center {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .col-100-jumbo {
@@ -199,7 +216,29 @@ body {
     justify-content: center;
 }
 
+ol {
+    list-style-type: none;
+    margin: 20px;
+}
 
+.flex-footer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text-footer {
+    font-size: 15px;
+}
+
+.text-h2-footer {
+    font-size: 30px;
+    color: rgb(40, 3, 3);
+}
+
+.list-footer {
+    width: 100%;
+    margin: 30px 0px;
+}
 
 .input {
     display: inline;
@@ -239,18 +278,37 @@ hr {
 
 }
 
+.button-white-border-none {
+    margin: 20px 0px;
+    padding: 10px 20px;
+    color: white;
+    color: rgb(83, 83, 83);
+}
+
+
 span {
     display: block;
 }
 
-.freccia {
+.inline {
+    display: inline;
+}
 
-    height: 50px;
-    width: 50px;
+.icon-jumbo {
+    padding: 60px 0px 0px 10px;
+    font-size: 50px;
+}
+
+.icon {
+    font-size: 20px;
 }
 
 .padding-top-bottom {
     padding: 10px 0px;
+}
+
+.margin-top {
+    margin-top: 40px;
 }
 
 .padding {
@@ -300,6 +358,7 @@ h1 {
 }
 
 
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -326,6 +385,12 @@ h1 {
 
 .container-full-footer {
     width: 100%;
+    background-color: lightblue;
+
+}
+
+.container-full-footer {
+    width: 100%;
 }
 
 .container {
@@ -345,10 +410,43 @@ h1 {
     padding: 20px;
 }
 
-.flex-center {
+.flex-co .flex-center {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 /* fine classi di utility */
+
+/* classi colori */
+.bg-green {
+    background-color: rgb(73, 147, 73);
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-darkred {
+    background-color: darkred;
+}
+
+.bg-darkviolet {
+    background-color: rgb(77, 5, 49);
+}
+
+.bg-darkblue {
+    background-color: darkblue;
+}
+
+.bg-yello {
+    background-color: yellow;
+}
+
+.bg-lightblue {
+    background-color: lightblue;
+}
+
+.bg-blue {
+    background-color: rgb(56, 56, 254);
+}
