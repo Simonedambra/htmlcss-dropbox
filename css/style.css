@@ -40,13 +40,14 @@ header {
 
 /* immagine jumbo */
 .img-jumbo {
+    position: absolute;
+    top: 35%;
     background-image: url(../img/jumbo.png);
     background-size: contain;
     background-repeat: no-repeat;
-    height: 100%;
-    width: 100%;
-    margin: 60px 0px 0px 50px;
-    scale: 1.2;
+    width: 80%;
+    height: 80%;
+
 }
 
 /* fine immagine jumbo */
@@ -117,7 +118,6 @@ header {
 
 .col-60-1 {
     width: 60%;
-
 }
 
 
@@ -446,6 +446,7 @@ span {
 /* fine display class */
 /* container class */
 .container-full-blue {
+    position: relative;
     width: 100%;
     background-color: lightblue;
     margin-bottom: 100px;
