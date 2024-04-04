@@ -117,14 +117,12 @@ header {
 
 .col-60-1 {
     width: 60%;
-    height: 100%;
 
 }
 
 
 .col-40-1 {
     width: 35%;
-    height: 100%;
     padding-right: 30px;
 
 
@@ -226,7 +224,6 @@ body {
 }
 
 .flex {
-    height: 100%;
     width: 100%;
     display: flex;
     flex-direction: row;
